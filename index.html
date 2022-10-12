@@ -10,65 +10,93 @@
 </head>
 
 <body>
-    <div class="info">
-        <img src="images/kot-nyashka.jpeg" alt="avatar-kotik" />
-        <h1>KOTIK NAYSHKA</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus recusandae ullam voluptatum saepe
-            perferendis eveniet impedit culpa itaque corporis tempora enim officia dolorum maxime inventore neque ad
-            doloribus, quam dolore ab soluta nam! Repellendus rem sit non a et rerum, quae possimus vero magnam
-            voluptates incidunt minima quidem obcaecati esse itaque suscipit ea officiis provident mollitia commodi
-            exercitationem ab ipsum similique. Sequi quae illo in facere, magni reiciendis est. Natus vero ipsum a cum
-            assumenda cupiditate, eos voluptates repellat, ea excepturi quia mollitia beatae incidunt doloremque ut
-            aspernatur molestias nulla? Ipsa vitae laboriosam, eos eveniet expedita voluptatem quae eius voluptas?</p>
-        <h4>my social media</h4>
-        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/" target="_blank">instagram</a>
-        |
-        <a href="https://www.facebook.com/STUDY.UA/" target="_blank">facebook</a>
+    <div class="container">
+        <div class="info">
+            <img class="avatar" src="images/kot-nyashka.jpeg" alt="avatar-kotik" />
+            <div class="info-text">
+                <h1>KOTIK NAYSHKA</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus recusandae ullam voluptatum
+                    saepe
+                    perferendis eveniet impedit culpa itaque corporis tempora enim officia dolorum maxime inventore
+                    neque ad
+                    doloribus
+                </p>
+                <h4>my social media</h4>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/" target="_blank">instagram</a>
+                |
+                <a href="https://www.facebook.com/STUDY.UA/" target="_blank">facebook</a>
+            </div>
+        </div>
+        <div class="card bg-light">
+            <h4>my leisure time activities</h4>
+            <ol class="list">
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, amet?</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+            </ol>
+        </div>
+        <div class="card bg-medium">
+            <h4>Work Experience</h4>
+            <table class="table">
+                <tr class="table-header">
+                    <td>company</td>
+                    <td>position</td>
+                    <td>period</td>
+                </tr>
+                <tr>
+                    <td>EPAM</td>
+                    <td>FrontEND</td>
+                    <td>2022-2023</td>
+                </tr>
+                <tr>
+                    <td>IMAP</td>
+                    <td>Data Engeneer</td>
+                    <td>2023-2024</td>
+                </tr>
+                <tr>
+                    <td>HOCK</td>
+                    <td>Data analyst</td>
+                    <td>2021-2022</td>
+                </tr>
+                <tr>
+                    <td>SomeWhere</td>
+                    <td>Full Stack developer </td>
+                    <td>2023 - now</td>
+                </tr>
+            </table>
+        </div>
+        <div class="card bg-dark">
+            <h4>YOUTUBE</h4>
+            <ul class="link-list">
+                <li><a href="https://www.youtube.com/watch?v=R-fKxAg0Wmc">The Peanuts Movie</a></li>
+                <li><a href="https://www.youtube.com/watch?v=Cg_ZGNl9wV8">Ice Age</a></li>
+            </ul>
+        </div>
+        <div class="contact">
+            <h4>Contact with me</h4>
+            <div class="row">
+                <div class="form-group">
+                    <form action=""></form>
+                    <label for="name">your name</label>
+                    <input type="text" id="name" placeholder="enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="e-mail">your e-mail</label>
+                    <input type="text" id="e-mail" placeholder="enter e-mail">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="text">your message</label>
+                <textarea name="" id="text" cols="30" rows="10"></textarea>
+            </div>
+            <input class="btn" type="submit" value="connect with me">
+            <div class="position">
+                <div class="box"></div>
+            </div>
+        </div>
+        <div style="margin-bottom: 200px;"></div>
     </div>
-    <div class="card bg-light">
-        <h4>my leisure time activities</h4>
-        <ol class="list">
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, amet?</li>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
-        </ol>
-    </div>
-    <div class="card bg-medium">
-        <h4>Work Experience</h4>
-        <table class="table">
-            <tr>
-                <td>company</td>
-                <td>position</td>
-                <td>period</td>
-            </tr>
-            <tr>
-                <td>EPAM</td>
-                <td>FrontEND</td>
-                <td>2022-2023</td>
-            </tr>
-            <tr>
-                <td>IMAP</td>
-                <td>Data Engeneer</td>
-                <td>2023-2024</td>
-            </tr>
-        </table>
-    </div>
-    <div class="card bg-dark">
-        <h4>Contact with me</h4>
-        <form action=""></form>
-        <label for="name">your name</label>
-        <input type="text" id="name" placeholder="enter your name">
-        <br>
-        <label for="e-mail">your e-mail</label>
-        <input type="text" id="e-mail" placeholder="enter e-mail">
-        <br>
-        <label for="text">your message</label>
-        <textarea name="" id="text" cols="30" rows="10"></textarea>
-        <br>
-        <input type="submit" value="connect with me">
-    </div>
-    <div style="margin-bottom: 200px;"></div>
 </body>
 
 </html>

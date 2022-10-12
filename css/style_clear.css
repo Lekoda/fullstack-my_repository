@@ -5,12 +5,38 @@ body {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
 }
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
 .info{
     margin-bottom: 5px;
     padding: 15px 20px;
+    display: flex;
 }
 .info h4 {
     margin-bottom: 2px;
+}
+/* # АДАПТИВНОСТЬ К МОБИЛЬНОМУ УСТРОЙСТВУ */
+@media (max-width: 600px) {
+.info {
+    text-align: center;
+    display: block;
+}
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    box-shadow: 0 3px 10px rgba(235, 232, 232, 0.2); 
+}
+.info-text {
+    margin-left: 40px;
+}
+.info-text h4 {
+    margin-bottom: 10px;
 }
 .list {
     padding: 0px 20px;
@@ -53,5 +79,75 @@ a:visited {
     margin-bottom: 2px;
 }
 .table {
-    
+    width: 100%;
+}
+.table-header td {
+    font-weight: 600; 
+    border-bottom: solid #9273DE;
+}
+/* # PSEUDO SELECTORS: */
+.table td:nth-child(2), .table td:nth-child(3){
+    color: #9273DE;
+}
+/* # even / odd row style */
+/* .table tr:nth-child(even) {
+    background-color:#FEFFBD;
+} */
+
+.link-list {
+    padding: 0 20px;
+    list-style-type: square;
+}
+.contact h4 {
+    text-align: center;
+}
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #9273DE;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #9273DE;
+    color: #45288F;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .form-group {
+    width: 50%;
+}
+.row > .form-group:first-child {
+    margin-right: 20px;
+}
+.btn {
+    background-color:#918B3D;
+    color: #DDDE8E;
+    border: none;
+    border-radius: 15px;
+    font-family: inherit;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.9;
+}
+/* # POSITION -УДОБНО ДЛЯ КНОПОК , МЕНЮ НАВИГАЦИИ, БАННЕРОВ*/ 
+.position {
+    border: 2px solid black;
+    margin-top: 40px;
+    padding: 20px;
+}
+.box {
+    width: 50px;
+    height: 50px;
+    background: darksalmon;
 }
