@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body{
+    background-color: rgb(54, 49, 49);
+    color:rgb(203, 194, 194);
+    font:400;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+/* font: 400 16px 'Montserrat', sans-serif;      #другой вид записи , результат идентичен! */
+}
+.container{
+    max-width: 750px;
+    margin:auto
+
+}
+/* # стиль через id  */
+/* .shapka p{
+    /* color: bisque;
+    margin: 0%;
+    font-style: italic;
+    font-weight:lighter;
+    text-transform:lowercase;
+    /* letter-spacing: 0.2px;
+    word-spacing: 5px; 
+}*/
+
+
+.avatar{
+    width: 200px;
+    border-radius: 100px;
+    box-shadow: 0 3px 10px rgba(235, 232, 232, 0.2); 
+}
+/* # box shadow работает при таких настройках!
+box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color];
+
+
+/* # box model */ 
+/* .social-networks{
+    background: rgb(99, 13, 13);
+    padding: 15px;
+    border: 3px rebeccapurple;
+    border-style:dotted;
+    margin: 20 0;
+}
+.box-model > div{
+background: #000;
+height: 200px;
+width: 25%;
+float: left;
+border: 1px solid rgb(203, 194, 194);
+box-sizing: border-box;
+} */
+
+/* # обнулить все настройки, которые по умолчанию выставлены!
+*{
+    padding: 0;
+    margin: 0;
+} */

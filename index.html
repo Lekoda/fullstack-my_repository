@@ -5,99 +5,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RESUME TEMPLATE</title>
+    <link rel="stylesheet" href="css/style_clear.css">
+    <title>Resume_kotik</title>
 </head>
 
 <body>
-    <!-- СТРУКТУРА ТАБЛИЧКИ ДЛЯ РАЗМЕТКИ -->
-    <table cellspacing="40">
-        <tr>
-            <td>
-                <!-- КАРТИНКА- ВАРИАНТ ССЫЛКОЙ -->
-                <img src="https://shutniks.com/wp-content/uploads/2019/12/smeshnye_memy_pro_kotov_43_02150153.jpg"
-                    alt="kotik" width="500">
-            </td>
-            <td>
-                <h1>Qui culpa tempor proident labore veniam consequat qui aliqua.</h1>
-                <p> <em> Ullamco cupidatat reprehenderit ullamco aliquip incididunt <strong>laborum labore</strong> ad
-                        officia eu.</em>
-                </p>
-                <p>Elit irure eiusmod laborum deserunt nostrud do aliqua ipsum quis cillum.</p>
-            </td>
-        </tr>
-    </table>
-    <hr align="center" width=500px size="2">
-    <!-- КАРТИНКА - ВАРИАНТ СОХРАНЕННОЙ -->
-    <img src="images/kot-nyashka.jpeg" alt="avatar" width="400">
-    <h2>my social media</h2>
-    <ul type="disc">
-        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/">Attrubute for links</a></li>
-        <li><a href="https://www.facebook.com/STUDY.UA/">study.ua</a></li>
-        <li><a href="https://www.w3schools.com/HOWTO/howto_css_style_hr.asp/" target="_blank">w3school</a></li>
-    </ul>
-    <hr>
-    <h1>Contact with me</h1>
-    <!-- ФОРМА ДЛЯ ПОЛЬЗОВАТЕЛЬСКОГО ВВОДА -->
-    <form>
-        <!-- #ввести имя  -->
-        <label for="name_">Your name</label>
-        <input type="text" name="" id="name_" placeholder="enter your name">
-        <!-- # перенос на следующую строчку -->
+    <div class="info">
+        <img src="images/kot-nyashka.jpeg" alt="avatar-kotik" />
+        <h1>KOTIK NAYSHKA</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus recusandae ullam voluptatum saepe
+            perferendis eveniet impedit culpa itaque corporis tempora enim officia dolorum maxime inventore neque ad
+            doloribus, quam dolore ab soluta nam! Repellendus rem sit non a et rerum, quae possimus vero magnam
+            voluptates incidunt minima quidem obcaecati esse itaque suscipit ea officiis provident mollitia commodi
+            exercitationem ab ipsum similique. Sequi quae illo in facere, magni reiciendis est. Natus vero ipsum a cum
+            assumenda cupiditate, eos voluptates repellat, ea excepturi quia mollitia beatae incidunt doloremque ut
+            aspernatur molestias nulla? Ipsa vitae laboriosam, eos eveniet expedita voluptatem quae eius voluptas?</p>
+        <h4>my social media</h4>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/" target="_blank">instagram</a>
+        |
+        <a href="https://www.facebook.com/STUDY.UA/" target="_blank">facebook</a>
+    </div>
+    <div class="card bg-light">
+        <h4>my leisure time activities</h4>
+        <ol class="list">
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, amet?</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+        </ol>
+    </div>
+    <div class="card bg-medium">
+        <h4>Work Experience</h4>
+        <table class="table">
+            <tr>
+                <td>company</td>
+                <td>position</td>
+                <td>period</td>
+            </tr>
+            <tr>
+                <td>EPAM</td>
+                <td>FrontEND</td>
+                <td>2022-2023</td>
+            </tr>
+            <tr>
+                <td>IMAP</td>
+                <td>Data Engeneer</td>
+                <td>2023-2024</td>
+            </tr>
+        </table>
+    </div>
+    <div class="card bg-dark">
+        <h4>Contact with me</h4>
+        <form action=""></form>
+        <label for="name">your name</label>
+        <input type="text" id="name" placeholder="enter your name">
         <br>
-        <!-- # ввести email пользователем  -->
-        <label for="e-mail">Your e-mail</label>
-        <input type="email" name="" id="e-mail" placeholder="enter e-mail">
+        <label for="e-mail">your e-mail</label>
+        <input type="text" id="e-mail" placeholder="enter e-mail">
         <br>
-        <!-- # кнопка submit c нашей надписью на ней  -->
-        <input type="submit" value="connect with me">
-        <br>
-        <!-- # поле для сообщения  -->
-        <label for="text">Your message</label>
-        <br>
+        <label for="text">your message</label>
         <textarea name="" id="text" cols="30" rows="10"></textarea>
-
-    </form>
-    <!-- # horizontal row - горизонтальная линия -->
-    <hr>
-    <h2>my leisure time activities</h2>
-    <ol type="a">
-        <!-- ВАРИАНТЫ ССЫЛОК -->
-        <li><a href="mailto:kakadu@gmail.com">kakadu@gmail.com</a></li>
-        <li><a href="tel:380503130804">+38 050 313 0804</a></li>
-        <li><a href="http:/instagram.com/blablabla" target="_blank"> instagram</a> contact</li>
-        <li><a href="youtube.html">Look trhough this page with links</a></li>
-    </ol>
-    <hr>
-    <h2>Work Experience</h2>
-    <!-- ТАБЛИЧКА С ДАННЫМИ -->
-    <table>
-        <!-- # table row -->
-        <tr>
-            <!-- # table header -->
-            <th align: 10px>
-                <!-- # table data  -->
-            <td>company</td>
-            <td>position</td>
-            <td>period</td>
-            </th>
-        </tr>
-        <tr>
-            <td>EPAM</td>
-            <td>FrontEND</td>
-            <td>2022-2023</td>
-        </tr>
-        <tr>
-            <td>IMAP</td>
-            <td>Data Engeneer</td>
-            <td>2023-2024</td>
-        </tr>
-        <tr>
-            <td>HOCK</td>
-            <td>Developer</td>
-            <td>2024-2026</td>
-        </tr>
-
-    </table>
+        <br>
+        <input type="submit" value="connect with me">
+    </div>
+    <div style="margin-bottom: 200px;"></div>
 </body>
 
 </html>

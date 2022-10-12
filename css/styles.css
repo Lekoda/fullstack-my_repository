@@ -1,4 +1,25 @@
 body {
-    background-color: rgb(56, 79, 17);
-    color:azure;
+    /* background-color: rgb(56, 79, 17); */
+    /* color:azure; */
+}
+.pic{
+    /* transform: scalex(-1);  */
+    /* # flip my photo  */
+}
+.coffee{
+    font-size: 10rem;
+    background: linear-gradient(to right, rgb(253,0,0,) rgb(10,193,253));
+    background-clip: text;
+    text-emphasis-color: transparent;
+}
+.box{
+    display: flex;
+    background-color: rgb(48, 196, 196);
+}
+.style-direction{
+    writing-mode: vertical-lr;
+    
+}
+.p-style{
+    
 }
